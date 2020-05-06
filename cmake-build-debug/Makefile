@@ -123,32 +123,59 @@ GameOfLife/fast:
 	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/build
 .PHONY : GameOfLife/fast
 
-main.o: main.cpp.o
+GameOfLife.o: GameOfLife.cpp.o
 
-.PHONY : main.o
+.PHONY : GameOfLife.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/main.cpp.o
-.PHONY : main.cpp.o
+GameOfLife.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o
+.PHONY : GameOfLife.cpp.o
 
-main.i: main.cpp.i
+GameOfLife.i: GameOfLife.cpp.i
 
-.PHONY : main.i
+.PHONY : GameOfLife.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/main.cpp.i
-.PHONY : main.cpp.i
+GameOfLife.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLife.cpp.i
+.PHONY : GameOfLife.cpp.i
 
-main.s: main.cpp.s
+GameOfLife.s: GameOfLife.cpp.s
 
-.PHONY : main.s
+.PHONY : GameOfLife.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/main.cpp.s
-.PHONY : main.cpp.s
+GameOfLife.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLife.cpp.s
+.PHONY : GameOfLife.cpp.s
+
+GameOfLifeDriver.o: GameOfLifeDriver.cpp.o
+
+.PHONY : GameOfLifeDriver.o
+
+# target to build an object file
+GameOfLifeDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o
+.PHONY : GameOfLifeDriver.cpp.o
+
+GameOfLifeDriver.i: GameOfLifeDriver.cpp.i
+
+.PHONY : GameOfLifeDriver.i
+
+# target to preprocess a source file
+GameOfLifeDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.i
+.PHONY : GameOfLifeDriver.cpp.i
+
+GameOfLifeDriver.s: GameOfLifeDriver.cpp.s
+
+.PHONY : GameOfLifeDriver.s
+
+# target to generate assembly for a file
+GameOfLifeDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/GameOfLife.dir/build.make CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.s
+.PHONY : GameOfLifeDriver.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... GameOfLife"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... GameOfLife.o"
+	@echo "... GameOfLife.i"
+	@echo "... GameOfLife.s"
+	@echo "... GameOfLifeDriver.o"
+	@echo "... GameOfLifeDriver.i"
+	@echo "... GameOfLifeDriver.s"
 .PHONY : help
 
 

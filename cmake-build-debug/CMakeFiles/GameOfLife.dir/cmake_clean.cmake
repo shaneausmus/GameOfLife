@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameOfLife.dir/main.cpp.o"
-  "GameOfLife"
-  "GameOfLife.pdb"
+  "../GameOfLife"
+  "../GameOfLife.pdb"
+  "CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o"
+  "CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -57,34 +57,49 @@ include CMakeFiles/GameOfLife.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/GameOfLife.dir/flags.make
 
-CMakeFiles/GameOfLife.dir/main.cpp.o: CMakeFiles/GameOfLife.dir/flags.make
-CMakeFiles/GameOfLife.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameOfLife.dir/main.cpp.o"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfLife.dir/main.cpp.o -c /Users/shaneausmus/CLionProjects/GameOfLife/main.cpp
+CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o: CMakeFiles/GameOfLife.dir/flags.make
+CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o: ../GameOfLifeDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o -c /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLifeDriver.cpp
 
-CMakeFiles/GameOfLife.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfLife.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneausmus/CLionProjects/GameOfLife/main.cpp > CMakeFiles/GameOfLife.dir/main.cpp.i
+CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLifeDriver.cpp > CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.i
 
-CMakeFiles/GameOfLife.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfLife.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneausmus/CLionProjects/GameOfLife/main.cpp -o CMakeFiles/GameOfLife.dir/main.cpp.s
+CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLifeDriver.cpp -o CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.s
+
+CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o: CMakeFiles/GameOfLife.dir/flags.make
+CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o: ../GameOfLife.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o -c /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp
+
+CMakeFiles/GameOfLife.dir/GameOfLife.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GameOfLife.dir/GameOfLife.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp > CMakeFiles/GameOfLife.dir/GameOfLife.cpp.i
+
+CMakeFiles/GameOfLife.dir/GameOfLife.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GameOfLife.dir/GameOfLife.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp -o CMakeFiles/GameOfLife.dir/GameOfLife.cpp.s
 
 # Object files for target GameOfLife
 GameOfLife_OBJECTS = \
-"CMakeFiles/GameOfLife.dir/main.cpp.o"
+"CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o" \
+"CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o"
 
 # External object files for target GameOfLife
 GameOfLife_EXTERNAL_OBJECTS =
 
-GameOfLife: CMakeFiles/GameOfLife.dir/main.cpp.o
-GameOfLife: CMakeFiles/GameOfLife.dir/build.make
-GameOfLife: CMakeFiles/GameOfLife.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GameOfLife"
+../GameOfLife: CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o
+../GameOfLife: CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o
+../GameOfLife: CMakeFiles/GameOfLife.dir/build.make
+../GameOfLife: CMakeFiles/GameOfLife.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../GameOfLife"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GameOfLife.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/GameOfLife.dir/build: GameOfLife
+CMakeFiles/GameOfLife.dir/build: ../GameOfLife
 
 .PHONY : CMakeFiles/GameOfLife.dir/build
 

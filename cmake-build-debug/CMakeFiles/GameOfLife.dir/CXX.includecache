@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp
+GameOfLife.h
+/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.h
+
+/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.h
+cstdlib
+-
+iostream
+-
+vector
+-
+chrono
+-
+thread
+-
+

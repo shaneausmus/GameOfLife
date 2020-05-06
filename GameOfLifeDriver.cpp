@@ -4,7 +4,8 @@
 
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+    GameOfLife testGame;
     return 0;
 }
 

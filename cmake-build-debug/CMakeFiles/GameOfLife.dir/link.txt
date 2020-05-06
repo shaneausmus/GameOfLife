@@ -1,1 +1,1 @@
-/usr/bin/clang++  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GameOfLife.dir/main.cpp.o  -o GameOfLife 
+/usr/bin/clang++   -std=c++17 -Wall -Werror -Wextra -pedantic -pedantic-errors -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o  -o ../GameOfLife 

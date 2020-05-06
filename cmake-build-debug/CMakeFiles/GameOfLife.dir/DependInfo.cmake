@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/shaneausmus/CLionProjects/GameOfLife/main.cpp" "/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles/GameOfLife.dir/main.cpp.o"
+  "/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp" "/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles/GameOfLife.dir/GameOfLife.cpp.o"
+  "/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLifeDriver.cpp" "/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/CMakeFiles/GameOfLife.dir/GameOfLifeDriver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

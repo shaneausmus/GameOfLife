@@ -38,8 +38,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GameOfLife">
-				<Option output="/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/GameOfLife" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug"/>
+				<Option output="/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shaneausmus/CLionProjects/GameOfLife"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -59,8 +59,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GameOfLife/fast">
-				<Option output="/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug/GameOfLife" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/shaneausmus/CLionProjects/GameOfLife/cmake-build-debug"/>
+				<Option output="/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shaneausmus/CLionProjects/GameOfLife"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/shaneausmus/CLionProjects/GameOfLife/main.cpp">
+		<Unit filename="/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.cpp">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLife.h">
+			<Option target="GameOfLife"/>
+		</Unit>
+		<Unit filename="/Users/shaneausmus/CLionProjects/GameOfLife/GameOfLifeDriver.cpp">
 			<Option target="GameOfLife"/>
 		</Unit>
 		<Unit filename="/Users/shaneausmus/CLionProjects/GameOfLife/CMakeLists.txt">
